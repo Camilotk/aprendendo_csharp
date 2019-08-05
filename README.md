@@ -1,7 +1,7 @@
 # Csharp
 
 ## Instalação no VSCode
-1. Baixar a SDK para o sistema operacional desejado. (link para download)[https://dotnet.microsoft.com/download]
+1. Baixar a SDK para o sistema operacional desejado. (https://dotnet.microsoft.com/download)[link para download]
 1. Instalar o VSCode
 
 | Comando                                                                                | O que faz?        | opc                                   | param.                                                                                                                                                                                                                                                             |
