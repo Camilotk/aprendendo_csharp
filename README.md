@@ -4,8 +4,8 @@
 1. Baixar a SDK para o sistema operacional desejado. [link para download](https://dotnet.microsoft.com/download)
 1. Instalar o VSCode. [link para download](https://code.visualstudio.com/)
 1. Instalar as extensões:
-  - [C#](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)
-  - [C# extensions](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions)
+  -- [C#](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)
+  -- [C# extensions](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions)
 
 | Comando                                                                                | O que faz?        | opc                                   | param.                                                                                                                                                                                                                                                             |
 |----------------------------------------------------------------------------------------|-------------------|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
