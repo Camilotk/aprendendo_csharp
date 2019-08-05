@@ -16,6 +16,6 @@ Quando utilizamos o VSCode para programar em C#, também utilizamos juntamente o
   
 ## Powershell
   Por isso, também é útil saber um pouco de como utilizar o Powershell do Windows. Caso utilize Mac ou Linux, pode-se instalar o Powershell e utilizá-lo ou então utilizar o terminal nativo com Bash (que é melhor).
-  <br> <br> <br>
+  <br> <br>
   ![Powershell commands](https://github.com/Camilotk/csharp/blob/master/Comparitech-Powershell-cheatsheet-1024x695.jpeg "Comandos Powershell")
   [PDF Ver.](https://cdn.comparitech.com/wp-content/uploads/2018/08/Comparitech-Powershell-cheatsheet.pdf)
