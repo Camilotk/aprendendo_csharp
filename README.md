@@ -1,4 +1,9 @@
 # Csharp
+
+## Instalação no VSCode
+1. Baixar a SDK para o sistema operacional desejado. (link para download)[https://dotnet.microsoft.com/download]
+1. Instalar o VSCode
+
 | Comando                                                                                | O que faz?        | opc                                   | param.                                                                                                                                                                                                                                                             |
 |----------------------------------------------------------------------------------------|-------------------|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | dotnet new <opc> -o <nome> <br> dotnet new -l <br> dotnet new <opc> -lang F# -o <name> | Cria novo projeto | <web, react,console, angular, webapi> | -o nome do projeto <br> -l lista de templates <br> -lang <C#, F#, VB>                                                                                                                                                                                              |
