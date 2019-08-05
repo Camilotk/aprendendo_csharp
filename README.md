@@ -1,4 +1,5 @@
 # Csharp
+Em certo momento surgiu a necessidade de que eu aprendesse C#, tanto para a utilização com a API de programas 3D que eu já utilizo, quanto para que eu conseguisse ministrar aulas de Unity e para trabalhos da faculdade. Criei esse repositório para armazenar as informações que preciso e exemplos de código durante a transição para a plataforma .NET 
 
 ## Instalação no VSCode
 1. Baixar a SDK para o sistema operacional desejado. [link para download](https://dotnet.microsoft.com/download)
