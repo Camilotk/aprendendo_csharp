@@ -13,3 +13,4 @@
 | dotnet run                                                                             | Roda o projeto    |                                       | dotnet run --project ./projects/proj1/proj1.csproj                                                                                                                                                                                                                 |
 ## Powershell
   ![Powershell commands](https://github.com/Camilotk/csharp/blob/master/Comparitech-Powershell-cheatsheet-1024x695.jpeg "Comandos Powershell")
+  [PDF Ver.](https://cdn.comparitech.com/wp-content/uploads/2018/08/Comparitech-Powershell-cheatsheet.pdf)
