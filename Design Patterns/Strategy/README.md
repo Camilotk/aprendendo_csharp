@@ -11,3 +11,7 @@ Quando muitas classes relacionadas diferem apenas no seu comportamento;
 * Quando necessita-se de variantes de um algoritmo;
 * Quando se precisa ocultar do usuário a exposição das estruturas de dados complexas, específicas do algoritmo;
 * Quando uma classe define muitos comportamentos e por sua vez eles aparecem como diversos “IFs”. Com isso esses comandos condicionais são movidos para sua própria classe Strategy.
+
+## Aula
+
+[![Design Patterns 1](http://img.youtube.com/vi/Z2ScCR1tyzU/0.jpg)](http://www.youtube.com/watch?v=Z2ScCR1tyzU)
