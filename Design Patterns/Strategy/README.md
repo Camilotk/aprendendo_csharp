@@ -8,14 +8,14 @@ O padrão Strategy tenta reduzir o acoplamento de uma família de algorítmos co
 Em resumo o padrão Strategy pode ser utilizado quando se tem as seguintes situações:
 
 Quando muitas classes relacionadas diferem apenas no seu comportamento;
-
+<br>
 * Quando necessita-se de variantes de um algoritmo;
 * Quando se precisa ocultar do usuário a exposição das estruturas de dados complexas, específicas do algoritmo;
 * Quando uma classe define muitos comportamentos e por sua vez eles aparecem como diversos “IFs”. Com isso esses comandos condicionais são movidos para sua própria classe Strategy.
 
 ## Links
-[Medium - Mulheres de Produto - O que é Strategy Pattern?](https://medium.com/mulheres-de-produto/o-que-%C3%A9-strategy-pattern-e-quando-usar-2fc3bcb4873f)
-[Estudo e Aplicação do Padrão de Projeto Strategy](https://www.devmedia.com.br/estudo-e-aplicacao-do-padrao-de-projeto-strategy/25856)
+[Medium - Mulheres de Produto - O que é Strategy Pattern?](https://medium.com/mulheres-de-produto/o-que-%C3%A9-strategy-pattern-e-quando-usar-2fc3bcb4873f)<br>
+[Estudo e Aplicação do Padrão de Projeto Strategy](https://www.devmedia.com.br/estudo-e-aplicacao-do-padrao-de-projeto-strategy/25856)<br>
 [Using the Strategy Pattern (Examples in C#)](https://dev.to/sam_ferree/using-the-strategy-pattern-examples-in-c-4jn6)
 
 ## Aula
