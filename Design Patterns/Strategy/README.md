@@ -1,5 +1,5 @@
 # Strategy Pattern
-*Tipo*: Padrão Comportamental
+*Tipo*: Padrão Comportamental<br>
 O padrão Strategy tenta reduzir o acoplamento de uma família de algorítmos com comportamento similares e fazer com que sejam intercambiaveis entre si. <br>
 <br>
  O Padrão Strategy sugere que se produza uma família de classes para cada variação do algoritmo e que se forneça para a classe hospedeira uma instância de Strategy para a qual ela delegará em tempo de execução. Um dos pré-requisitos para o Strategy é uma estrutura de herança onde cada subclasse específica contém uma variação do algoritmo. Assim, o padrão Strategy possui diversos benefícios como clarificar algoritmos ao diminuir ou remover lógica condicional, simplificar uma classe ao mover variações de um algoritmo para uma hierarquia, e habilitar um algoritmo para ser substituído por outro em tempo de execução.
