@@ -22,3 +22,9 @@ Quando muitas classes relacionadas diferem apenas no seu comportamento;
 
 [![Design Patterns 1](http://img.youtube.com/vi/Z2ScCR1tyzU/0.jpg)](http://www.youtube.com/watch?v=Z2ScCR1tyzU)
 
+## Classes da Aula
+* [Program](https://github.com/Camilotk/csharp/blob/master/Design%20Patterns/Strategy/Program.cs): Classe Main, onde o código é executado.
+* [Orcamento](https://github.com/Camilotk/csharp/blob/master/Design%20Patterns/Strategy/Orcamento.cs): Classe que abstrai o orçamento, possuindo o atributo _double_ valor e os métodos _get_ e _set_ do mesmo.
+* [Imposto](https://github.com/Camilotk/csharp/blob/master/Design%20Patterns/Strategy/Imposto.cs): Interface que faz o contrato da função _Calcula_ que obriga que todos os que implementam-na possam ser usados como paramêtro através de Polimorfismo em métodos de outras classes.
+* [Calculadora](https://github.com/Camilotk/csharp/blob/master/Design%20Patterns/Strategy/Calculadora.cs): Classe que possui o método _CalculaImposto_ responsável por receber um objeto _Orcamento_  e uma implementação da interface _Imposto_ e devolver o cálculo realizado dentro da classe específica.
+* [ICMS](https://github.com/Camilotk/csharp/blob/master/Design%20Patterns/Strategy/ICMS.cs) e [ISS](https://github.com/Camilotk/csharp/blob/master/Design%20Patterns/Strategy/ISS.cs): Implementações de diferentes impostos (família de tarefas).
