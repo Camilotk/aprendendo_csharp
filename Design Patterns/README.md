@@ -1,4 +1,5 @@
 # Padrões
+## Principais
 - [ ] Abstract Factory <br>
 - [ ] Adapter<br>
 - [ ] Composite <br>
