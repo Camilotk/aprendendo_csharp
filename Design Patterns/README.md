@@ -5,5 +5,5 @@
 - [ ] Decorator <br>
 - [ ] Factory Method<br> 
 - [ ] Observer<br>
-- [ ] Strategy<br>
+- [X] Strategy<br>
 - [ ] Template Method<br>
