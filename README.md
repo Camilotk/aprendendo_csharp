@@ -12,7 +12,7 @@ Em certo momento surgiu a necessidade de que eu aprendesse C#, tanto para a util
 ```
 choco install nodejs
 ```
-1. Faça o update e intale o Yeoman e as depdências necessárias.
+3. Faça o update e intale o Yeoman e as depdências necessárias.
 ```
 npm install -g npm
 npm i -g yo bower grunt-cli gulp generator-aspnet
