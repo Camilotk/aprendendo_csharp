@@ -15,7 +15,7 @@ choco install nodejs
 3. Faça o update e intale o Yeoman e as depdências necessárias.
 ```
 npm install -g npm
-npm i -g yo bower grunt-cli gulp generator-aspnet
+npm i -g yo yarn grunt-cli gulp generator-aspnet
 ```
 
 ## Utilizando os comandos por Powershell
