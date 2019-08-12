@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 
 // Tutorial: https://docs.microsoft.com/pt-br/ef/core/get-started/netcore/new-db-sqlite
 // Tutorial: http://www.npgsql.org/efcore/
+// Tutorial: https://ef.readthedocs.io/en/staging/platforms/aspnetcore/new-db.html
 
 namespace TesteEntity
 {
@@ -22,9 +23,7 @@ namespace TesteEntity
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Post> Posts { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlite("Data Source=blogging.db");
-        }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
+        => optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=efcore_test;Username=postgres;Password=3001");
     }
 }
