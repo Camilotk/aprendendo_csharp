@@ -6,3 +6,11 @@ Antes do NuGet esse procedimento era feito de forma manual, ou seja, precisávam
 Com o NuGet esse procedimento é simplificado. Todas as bibliotecas ficam centralizadas no repositório nuget.org e por meio de uma ferramenta integrada ao Visual Studio é possível instalar, atualizar e remover os pacotes de forma bastante prática.
 <br><br>
 Quando instalamos um pacote em nossa aplicação o NuGet o registra no arquivo packages.config, semelhante ao pom.xml do Maven, composer.json do Composer e package.json do NPM. A partir desse arquivo podemos reinstalar com facilidade todos os pacotes posteriormente.
+
+## Pré-requesitos
+- O SDK do .NET Core, que fornece a ferramenta de linha de comando dotnet. [Baixar Aqui](https://dotnet.microsoft.com/download)
+
+## Commandos e Utilização
+### Instalando Pacote
+### Atualizando Pacote
+### Removendo Pacote
