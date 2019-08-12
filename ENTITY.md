@@ -106,6 +106,7 @@ dotnet ef database update
 ```
 6. Criar o **Main.cs** onde iremos executar algumas inserções e buscas no Banco.<br>
 <p> <b>Main.cs</b> </p>
+
 ```C#
 using System;
 
