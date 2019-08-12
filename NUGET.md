@@ -15,14 +15,24 @@ Quando instalamos um pacote em nossa aplicação o NuGet o registra no arquivo p
 1. Entrar na pasta do _projeto_ em que o pacote será instalado.
 2. Dentro da pasta, utilizar o CLI do .NET para instalar o pacote desejado.
 ```
-dotnet add package <nome do pacote>
+dotnet add package <nome do pacote> -v=1.0.1
+dotnet add <projeto> package <nome do pacote> --version=1.0.1
 ```
 3. Após a conclusão do comando, abra o arquivo *.csproj* para ver a referência adicionada.
 ```XML
 <ItemGroup>
-<PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+<PackageReference Include="Nome do Pacote" Version="1.0.1" />
 </ItemGroup>
 ```
 4. Ao executar o comando **dotnet run** ou **dotnet build**, automaticamente, em primeiro lugar será checado o arquivo .csproj e as depedências serão atualizadas.
 ### Atualizando Pacote
+- Para fazer o Update de um pacote basta rodar o comando **dotnet add** com o nome do pacote sem a _flag_ --version (-v) ou especificando para qual versão quer fazer o upograde/downgrade
 ### Removendo Pacote
+1. Entrar na pasta do _projeto_ em que o pacote será removido.
+2. Dentro da pasta, utilizar o CLI do .NET para remover o pacote desejado.
+```
+dotnet remove package <nome do pacote>
+dotnet remove <projeto> package <nome do pacote>
+```
+3. Após a conclusão do comando, abra o arquivo *.csproj* para ver a referência foi removida.
+4. Ao executar o comando **dotnet run** ou **dotnet build**, automaticamente, em primeiro lugar será checado o arquivo .csproj e as depedências serão atualizadas.
