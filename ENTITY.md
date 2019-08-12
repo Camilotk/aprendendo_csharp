@@ -104,7 +104,7 @@ dotnet ef migrations add InitialCreate
 ```
 dotnet ef database update
 ```
-6. Criar o **Main.cs** onde iremos executar algumas inserções e buscas no Banco.<br>
+6. Criar o **Main.cs** onde iremos executar algumas inserções e buscas no Banco.
 **Main.cs**<br>
 ```C#
 using System;
@@ -144,6 +144,7 @@ dotnet run
 ```
 <br>
 **Saída:**
+<br>
 ```
 ConsoleApp.SQLite>dotnet run
 1 records saved to database
