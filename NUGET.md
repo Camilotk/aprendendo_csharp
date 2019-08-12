@@ -12,5 +12,16 @@ Quando instalamos um pacote em nossa aplicação o NuGet o registra no arquivo p
 
 ## Commandos e Utilização
 ### Instalando Pacote
+1. Entrar na pasta do _projeto_ em que o pacote será instalado.
+1. Dentro da pasta, utilizar o CLI do .NET para instalar o pacote desejado.
+```powershell
+dotnet add package <nome do pacote>
+```
+1. Após a conclusão do comando, abra o arquivo *.csproj* para ver a referência adicionada.
+```XML
+<ItemGroup>
+<PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+</ItemGroup>
+```
 ### Atualizando Pacote
 ### Removendo Pacote
