@@ -6,8 +6,12 @@ Em certo momento surgiu a necessidade de que eu aprendesse C#, tanto para a util
 - [Instalando o Ambiente de Desenvolvimento (VSCode)](https://github.com/Camilotk/aprendendo_csharp/blob/master/INSTALLATION.md)
 - [Utilizando os comandos do Powershell](https://github.com/Camilotk/aprendendo_csharp/blob/master/POWERSHELL.md)
 ### Banco de Dados, Testes e Pacotes
-- [#]()
+- [Nuget]()
+- [Entity Framework Core]()
+- [MSTest]()
 ### Estrutura de Dados, SOLID e Design Patterns
-- [#]()
+- [Estrutura de Dados]()
+- [SOLID](#)
+- [Design Patterns](https://github.com/Camilotk/aprendendo_csharp/tree/master/Design%20Patterns)
 ### ASP.NET Core
-
+- [#]()
