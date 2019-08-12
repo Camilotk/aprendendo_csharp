@@ -99,8 +99,10 @@ namespace TesteEntity
     }
 }
 ```
-5. Criar as migrações (_migrations_)(²)[https://docs.microsoft.com/pt-br/ef/core/managing-schemas/migrations/index] para criar e atualizar o banco de dados.<br>
-*Cria o banco e tabelas*<br>
+5. Criar as migrações (_migrations_)[²](https://docs.microsoft.com/pt-br/ef/core/managing-schemas/migrations/index) para criar e atualizar o banco de dados.
+
+<p><i>Cria o banco e tabelas</i></p>
+
 ```
 dotnet ef migrations add InitialCreate
 ```
