@@ -1,5 +1,5 @@
 # Entity Framework Core
-O Entity Framework Core é a ferramente de criação, edição e manipulação de Banco de Dados por ORM (¹)[https://pt.stackoverflow.com/a/138943] do .NET Core. Podemos utilizar o Entity Framework Core para trabalhar com qualquer base de dados, seja ela SQLServer, MariaDB, Oracle, SQLite, PostgreSQL ou MYSQL utilizando o mesmo fluxo de trabalho e utilizando-se de abstrações do mais alto nível para transformar o modelo orientado à objetos do projeto em relações na Base de Dados, todo esse trabalho é feito pelo Framework, permitindo que o programador preocupe-se mais com a modelagem do projeto orientado à objetos e menos com a Base de Dados que está utilizando.  
+O Entity Framework Core é a ferramente de criação, edição e manipulação de Banco de Dados por ORM [¹](https://pt.stackoverflow.com/a/138943) do .NET Core. Podemos utilizar o Entity Framework Core para trabalhar com qualquer base de dados, seja ela SQLServer, MariaDB, Oracle, SQLite, PostgreSQL ou MYSQL utilizando o mesmo fluxo de trabalho e utilizando-se de abstrações do mais alto nível para transformar o modelo orientado à objetos do projeto em relações na Base de Dados, todo esse trabalho é feito pelo Framework, permitindo que o programador preocupe-se mais com a modelagem do projeto orientado à objetos e menos com a Base de Dados que está utilizando.  
 
 ## Tutorial
 1. Para utilizar o Entity, primeiro devemos criar um Projeto, caso ainda não tenha feito-o, basta utilizar o comando **dotnet new** para isso.
@@ -28,8 +28,8 @@ dotnet add package Microsoft.EntityFrameworkCore.Tools
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="2.2.4" />
   </ItemGroup>
 ```
-5. Crie uma Classe *Context* que contêm as configurações de acesso e tabelas do banco.
-**BloggingContext.cs**
+5. Crie uma Classe *Context* que contêm as configurações de acesso e tabelas do banco.<br>
+**BloggingContext.cs**<br>
 ```C#
 using Microsoft.EntityFrameworkCore;
 
@@ -57,8 +57,8 @@ namespace TesteEntity
     }
 }
 ```
-6. Crie as Classes que representam a abstração dos dados que serão adicionados nas Tabelas.
-**Blog.cs**
+6. Crie as Classes que representam a abstração dos dados que serão adicionados nas Tabelas.<br>
+**Blog.cs**<br>
 ```C#
 using System.Collections.Generic;
 
@@ -80,7 +80,7 @@ namespace TesteEntity
     }
 }
 ```
-**Post.cs**
+**Post.cs**<br>
 ```C#
 namespace TesteEntity
 {
@@ -95,17 +95,17 @@ namespace TesteEntity
     }
 }
 ```
-5. Criar as migrações (_migrations_)(²)[https://docs.microsoft.com/pt-br/ef/core/managing-schemas/migrations/index] para criar e atualizar o banco de dados.
-*Cria o banco e tabelas*
+5. Criar as migrações (_migrations_)(²)[https://docs.microsoft.com/pt-br/ef/core/managing-schemas/migrations/index] para criar e atualizar o banco de dados.<br>
+*Cria o banco e tabelas*<br>
 ```
 dotnet ef migrations add InitialCreate
 ```
-*Aplica as atualizações*
+*Aplica as atualizações*<br>
 ```
 dotnet ef database update
 ```
-6. Criar o **Main.cs** onde iremos executar algumas inserções e buscas no Banco.
-**Main.cs**
+6. Criar o **Main.cs** onde iremos executar algumas inserções e buscas no Banco.<br>
+**Main.cs**<br>
 ```C#
 using System;
 
@@ -138,10 +138,11 @@ namespace TesteEntity
     }
 }
 ```
-7. Executar o comando **dotnet run** e ver se teve a saída de acordo.
+7. Executar o comando **dotnet run** e ver se teve a saída de acordo.<br>
 ```
 dotnet run
 ```
+<br>
 **Saída:**
 ```
 ConsoleApp.SQLite>dotnet run
