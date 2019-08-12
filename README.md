@@ -7,7 +7,7 @@ Em certo momento surgiu a necessidade de que eu aprendesse C#, tanto para a util
 - [Utilizando os comandos do Powershell](https://github.com/Camilotk/aprendendo_csharp/blob/master/POWERSHELL.md)
 ### Banco de Dados, Testes e Pacotes
 - [Nuget](https://github.com/Camilotk/aprendendo_csharp/blob/master/NUGET.md)
-- [Entity Framework Core]()
+- [Entity Framework Core](https://github.com/Camilotk/aprendendo_csharp/blob/master/ENTITY.md)
 - [MSTest]()
 ### Estrutura de Dados, SOLID e Design Patterns
 - [Estrutura de Dados]()
