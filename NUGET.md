@@ -36,3 +36,7 @@ dotnet remove <projeto> package <nome do pacote>
 ```
 3. Após a conclusão do comando, abra o arquivo *.csproj* para ver a referência foi removida.
 4. Ao executar o comando **dotnet run** ou **dotnet build**, automaticamente, em primeiro lugar será checado o arquivo .csproj e as depedências serão atualizadas.
+## Referências
+- [Quickstart do Nuget CLI: How to Install and Use a Package](https://docs.microsoft.com/pt-br/nuget/quickstart/install-and-use-a-package-using-the-dotnet-cli)
+- [Artigo: How to Update a Nuget Package using CLI](https://ardalis.com/how-do-i-update-a-nuget-package-using-dotnet-cli)
+- [Documentação Remove Package](https://docs.microsoft.com/pt-br/dotnet/core/tools/dotnet-remove-package)
