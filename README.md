@@ -2,6 +2,12 @@
 Em certo momento surgiu a necessidade de que eu aprendesse C#, tanto para a utilização com a API de programas 3D que eu já utilizo, quanto para que eu conseguisse ministrar aulas de Unity e para trabalhos da faculdade. Criei esse repositório para armazenar as informações que preciso e exemplos de código durante a transição para a plataforma .NET
 
 ## Sumário
-- [Instalando o Ambiente de Desenvolvimento (VSCode)]()
-- [Utilizando os comandos do Powershell]()
+### Instalação e Configuração de Ambiente
+- [Instalando o Ambiente de Desenvolvimento (VSCode)](https://github.com/Camilotk/aprendendo_csharp/blob/master/INSTALLATION.md)
+- [Utilizando os comandos do Powershell](https://github.com/Camilotk/aprendendo_csharp/blob/master/POWERSHELL.md)
+### Banco de Dados, Testes e Pacotes
+- [#]()
+### Estrutura de Dados, SOLID e Design Patterns
+- [#]()
+### ASP.NET Core
 
