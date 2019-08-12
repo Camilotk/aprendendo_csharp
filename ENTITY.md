@@ -161,3 +161,7 @@ ConsoleApp.SQLite>dotnet run
 All blogs in database:
 - http://blogs.msdn.com/adonet
 ```
+## Referências
+- [Introdução ao EF Core no aplicativo de console do .NET Core com um novo banco de dados (SQLite)](https://docs.microsoft.com/pt-br/ef/core/get-started/netcore/new-db-sqlite)
+- [Npgsql - Getting Started (Postgres)](http://www.npgsql.org/efcore/)
+- [ASP.NET Core Application to New Database (SQLServer)](https://ef.readthedocs.io/en/staging/platforms/aspnetcore/new-db.html)
