@@ -2,7 +2,7 @@
 Com frequência, durante o desenvolvimento das nossas aplicações, precisamos instalar pacotes de terceiros para realizar as mais diversas tarefas, como acesso a bancos de dados, validações, etc.
 
 Antes do NuGet esse procedimento era feito de forma manual, ou seja, precisávamos realizar nos sites dos desenvolvedores o download das bibliotecas e incluí-las em nossos projetos. Quando uma nova versão era lançada, era preciso baixá-la novamente e substituir em todos os locais em que ela estivesse sendo usada.
-<br><br>
+
 Com o NuGet esse procedimento é simplificado. Todas as bibliotecas ficam centralizadas no repositório nuget.org e por meio de uma ferramenta é possível instalar, atualizar e remover os pacotes de forma bastante prática.
 
 Quando instalamos um pacote em nossa aplicação o NuGet o registra no arquivo *.csproj*, semelhante ao pom.xml do Maven, composer.json do Composer e package.json do NPM. A partir desse arquivo podemos reinstalar com facilidade todos os pacotes posteriormente.
