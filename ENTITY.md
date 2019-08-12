@@ -28,8 +28,10 @@ dotnet add package Microsoft.EntityFrameworkCore.Tools
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="2.2.4" />
   </ItemGroup>
 ```
-5. Crie uma Classe *Context* que contêm as configurações de acesso e tabelas do banco.<br>
-**BloggingContext.cs**<br>
+5. Crie uma Classe *Context* que contêm as configurações de acesso e tabelas do banco.
+
+<p> <b>BloggingContext.cs</b> </p>
+
 ```C#
 using Microsoft.EntityFrameworkCore;
 
@@ -57,8 +59,10 @@ namespace TesteEntity
     }
 }
 ```
-6. Crie as Classes que representam a abstração dos dados que serão adicionados nas Tabelas.<br>
-**Blog.cs**<br>
+6. Crie as Classes que representam a abstração dos dados que serão adicionados nas Tabelas.
+
+<p> <b>Blog.cs</b> </p>
+
 ```C#
 using System.Collections.Generic;
 
@@ -104,7 +108,7 @@ dotnet ef migrations add InitialCreate
 ```
 dotnet ef database update
 ```
-6. Criar o **Main.cs** onde iremos executar algumas inserções e buscas no Banco.<br>
+6. Criar o **Main.cs** onde iremos executar algumas inserções e buscas no Banco.
 <p> <b>Main.cs</b> </p>
 
 ```C#
@@ -139,11 +143,12 @@ namespace TesteEntity
     }
 }
 ```
+
 7. Executar o comando **dotnet run** e ver se teve a saída de acordo.<br>
 ```
 dotnet run
 ```
-<br>
+
 **Saída:**
 <br>
 
