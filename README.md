@@ -14,4 +14,9 @@ Em certo momento surgiu a necessidade de que eu aprendesse C#, tanto para a util
 - [SOLID](#)
 - [Design Patterns](https://github.com/Camilotk/aprendendo_csharp/tree/master/Design%20Patterns)
 ### ASP.NET Core
-- [#]()
+- [ASP.net Core](https://docs.microsoft.com/pt-br/aspnet/core/?view=aspnetcore-2.2)
+### SciSharp, Xamarin e Blockchain
+- [Xamarin](https://docs.microsoft.com/pt-br/xamarin/cross-platform/get-started/)
+- [SciSharp](https://github.com/SciSharp)
+- [Blockchain](https://www.c-sharpcorner.com/article/blockchain-basics-building-a-blockchain-in-net-core/)
+
