@@ -13,7 +13,7 @@ Inserir um elemento entre os elementos existentes de um ArrayList é uma operaç
 | remove() | O(n)            | O(n)            |
 
 ## Indice de Listas
-- [ArrayList](#)
+- [ArrayList](https://github.com/Camilotk/aprendendo_csharp/tree/master/Data%20Structures/Lists/ArrayList)
 - [LinkedList](#)
 
 ### Referências
