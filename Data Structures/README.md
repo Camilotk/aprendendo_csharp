@@ -12,5 +12,8 @@ Estrutura de Dados, são coleções - _sets_ (conjuntos) - de dados. Cada estrut
 
 **Obs:** Evite reinventar a roda — em vez de construir suas próprias estruturas de dados, utilize as interfaces e coleções da estrutura das coleções do C#, que foram cuidadosamente testadas e ajustadas para atender aos requisitos da maioria dos aplicativos. Este repositório e estudo é para entender como as coisas funcionam e não com o objetivo de _reescrever_ algo que foi implementado pela linguagem. 
 
-## Coleções baseadas em Objetos
-
+## Indice de Estruturas de Dados
+- Lists
+- Sets
+- Map
+- Queue
