@@ -9,7 +9,7 @@ Inserir um elemento entre os elementos existentes de um ArrayList é uma operaç
 | add()    | O(1)      | O(1) amortizado |
 | remove() | O(n)      | O(n)            |
 
-## Tutoriais
+## Indice de Listas
 - [ArrayList](#)
 - [LinkedList](#)
 
