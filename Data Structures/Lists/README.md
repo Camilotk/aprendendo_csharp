@@ -1,13 +1,16 @@
 # Lists
 Uma List (às vezes chamada de sequência) é uma coleção ordenada que pode conter elementos duplicados. Como os arrays, índices de uma lista seguem a numeração baseada em zero (Zero-based numbering)[¹](https://en.wikipedia.org/wiki/Zero-based_numbering). As listas ordenadas herdam das interfaces IEnumerable, ICollection e IList. Nessa categoria estão as estruturas **ArrayList** e **LinkedList**.  A classe ArrayList é uma implementação de array redimensionável com acesso randômico. LinkedLists são coleções ordenadas em que cada nó (objeto que contêm a informação) também contenha a referência para o próximo nó, fazendo com que assim todos fiquem ordenados um após o outro.
+
+**Obs:** Em C#, a implementação padrão da linguagem de um ArrayList permite ser feita pelas classes **List** e **ArrayList** como pode ser visto melhor [aqui](https://stackoverflow.com/a/50736397).
+
 ## Diferenças de Performance
 Inserir um elemento entre os elementos existentes de um ArrayList é uma operação ineficiente — todos os elementos depois do novo devem ser removidos, o que pode ser uma operação cara em uma coleção com um grande número de elementos. Uma LinkedList permite a inserção (ou remoção) eficiente dos elementos no meio de uma coleção, mas é muito menos eficiente que um ArrayList para pular para um elemento específico na coleção.
 
-|          | ArrayList | LinkedList      |
-|----------|-----------|-----------------|
-| get()    | O(1)      | O(n)            |
-| add()    | O(1)      | O(1) amortizado |
-| remove() | O(n)      | O(n)            |
+|          | ArrayList (List)| LinkedList      |
+|----------|-----------------|-----------------|
+| get()    | O(1)            | O(n)            |
+| add()    | O(1)            | O(1) amortizado |
+| remove() | O(n)            | O(n)            |
 
 ## Indice de Listas
 - [ArrayList](#)
