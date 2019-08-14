@@ -17,7 +17,7 @@ Também é possivel usar essas interfaces para fazer as próprias implementaçõ
 **Obs:** Evite reinventar a roda — em vez de construir suas próprias estruturas de dados, utilize as interfaces e coleções da estrutura das coleções do C#, que foram cuidadosamente testadas e ajustadas para atender aos requisitos da maioria dos aplicativos. Este repositório e estudo é para entender como as coisas funcionam e não com o objetivo de _reescrever_ algo que foi implementado pela linguagem. 
 
 ## Indice de Estruturas de Dados
-- Lists
+- [Lists](https://github.com/Camilotk/aprendendo_csharp/tree/master/Data%20Structures/Lists)
 - Sets
 - Map
 - Queue
