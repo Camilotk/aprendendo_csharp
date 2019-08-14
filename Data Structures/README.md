@@ -10,5 +10,7 @@ Estrutura de Dados, são coleções - _sets_ (conjuntos) - de dados. Cada estrut
 | IDictionary           | Implementa todas as ações de coleções que são baseadas em chave-valor, como HashTable e SortedList.                                                           | [IDictionary](https://docs.microsoft.com/pt-br/dotnet/api/system.collections.idictionary?view=netcore-2.2)                     | [IDictionary<TKey,TValue>](https://docs.microsoft.com/pt-br/dotnet/api/system.collections.generic.idictionary-2?view=netcore-2.2) |
 | IDictionaryEnumerator | Permite enumerar a coleção para dar suporte (permitir) o comando foreach quando ela implementa um IDictionary                                                 | [IDictionaryEnumerator](https://docs.microsoft.com/pt-br/dotnet/api/system.collections.idictionaryenumerator?view=netcore-2.2) |                                                                                                                                   |
 
+**Obs:** Evite reinventar a roda — em vez de construir suas próprias estruturas de dados, utilize as interfaces e coleções da estrutura das coleções do C#, que foram cuidadosamente testadas e ajustadas para atender aos requisitos da maioria dos aplicativos. Este repositório e estudo é para entender como as coisas funcionam e não com o objetivo de _reescrever_ algo que foi implementado pela linguagem. 
+
 ## Coleções baseadas em Objetos
 
