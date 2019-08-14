@@ -1,5 +1,7 @@
 # Apredendo C#
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/Camilotk/teste_skeel/issues/new)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 Em certo momento surgiu a necessidade de que eu aprendesse C#, tanto para a utilização com a API de programas 3D que eu já utilizo, quanto para que eu conseguisse ministrar aulas de Unity e para trabalhos da faculdade. Criei esse repositório para armazenar as informações que preciso e exemplos de código durante a transição para a plataforma .NET
 
 ## Sumário
