@@ -10,7 +10,7 @@ Em certo momento surgiu a necessidade de que eu aprendesse C#, tanto para a util
 - [Entity Framework Core](https://github.com/Camilotk/aprendendo_csharp/blob/master/ENTITY.md)
 - [MSTest]()
 ### Estrutura de Dados, SOLID e Design Patterns
-- [Estrutura de Dados]()
+- [Estrutura de Dados](https://github.com/Camilotk/aprendendo_csharp/tree/master/Data%20Structures)
 - [SOLID](#)
 - [Design Patterns](https://github.com/Camilotk/aprendendo_csharp/tree/master/Design%20Patterns)
 ### ASP.NET Core
