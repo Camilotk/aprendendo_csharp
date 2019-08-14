@@ -28,7 +28,7 @@ namespace ArrayList
             {
                 this.resize();
             }
-            // coloca e na posição de size++ (tamanho + 1)
+            // coloca e na posição de size++ (tamanho + 1) e seta o valor em size
             elements[size++] = e;
         }
 
