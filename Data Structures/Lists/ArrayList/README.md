@@ -8,5 +8,16 @@ A Estrutura ArrayList (List) é uma estrutura de vetor com capacidade de dinamic
 ## Implementação em C#
 - [MyArrayList.cs](https://github.com/Camilotk/aprendendo_csharp/blob/master/Data%20Structures/Lists/ArrayList/Implementation/MyArrayList.cs)
 
+### Propriedades
+O ArrayList possui três propriedades, uma que guarda o tamanho do ArrayList (*size*), uma constante que guarda a quantidade padrão de itens (capacidade, DEFAULT_CAPACITY) e um Array nativo que é instanciado no construtor com o tamanho padrão.
+```C#
+// Propriedade que guarda o tamanho do ArrayList
+private int size = 0;
+// Constante que guarda o tamanho máximo padrão da implementação
+private static readonly int DEFAULT_CAPACITY = 10;
+// Array de objetos onde os elementos serão colocados
+private Object[] elements;
+```
+
 # Referências
 - [Trabalho com listas - Caelum](https://www.caelum.com.br/apostila-csharp-orientacao-objetos/trabalhando-com-listas/)
