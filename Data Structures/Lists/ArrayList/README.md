@@ -63,3 +63,4 @@ public T get(int i)
 ```
 # Referências
 - [Trabalho com listas - Caelum](https://www.caelum.com.br/apostila-csharp-orientacao-objetos/trabalhando-com-listas/)
+- [How to implement an ArrayList structure in Java - Tutorial](https://www.vogella.com/tutorials/JavaDatastructureList/article.html)
