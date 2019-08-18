@@ -39,8 +39,8 @@ namespace ArrayList
         public void resize()
         {
             int newSize = elements.Length * 2;
-            // Copia todos os elementos para o mesmo array com o tamanho duplicado
-            Array.Copy(elements, elements, newSize);
+            // Aumenta o tamanho do array passado por referência pelo tamanho passado
+            Array.Resize(ref elements, newSize);
         }
 
         // Método get
