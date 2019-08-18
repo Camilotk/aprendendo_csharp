@@ -49,5 +49,17 @@ public void resize()
 }
 ```
 ### Método Get
+O método **.Get(** *int index* **)** é implementado recebendo um indice e retornando um objeto do tipo genérico. Primeiramente, é checado se o indice é valido (menor que zero ou maior que o tamanho do array) e caso seja inválido, então é retornado a exceção IndexOutOfRangeException. Caso seja válido, é retornado o elemento no array *elements* no indice passado com cast para o objeto genérico passado.
+
+```C#
+public T get(int i) 
+{
+    if (i >= size || i < 0) 
+    {
+        throw new System.IndexOutOfRangeException("Index: " + i + ", Size " + i );
+    }
+    return (T) elements[i];
+ }
+```
 # Referências
 - [Trabalho com listas - Caelum](https://www.caelum.com.br/apostila-csharp-orientacao-objetos/trabalhando-com-listas/)
