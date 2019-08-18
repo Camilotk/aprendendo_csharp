@@ -14,7 +14,10 @@ Também é possivel usar essas interfaces para fazer as próprias implementaçõ
 | IDictionary           | Implementa todas as ações de coleções que são baseadas em chave-valor, como HashTable e SortedList.                                                           | [IDictionary](https://docs.microsoft.com/pt-br/dotnet/api/system.collections.idictionary?view=netcore-2.2)                     | [IDictionary<TKey,TValue>](https://docs.microsoft.com/pt-br/dotnet/api/system.collections.generic.idictionary-2?view=netcore-2.2) |
 | IDictionaryEnumerator | Permite enumerar a coleção para dar suporte (permitir) o comando foreach quando ela implementa um IDictionary                                                 | [IDictionaryEnumerator](https://docs.microsoft.com/pt-br/dotnet/api/system.collections.idictionaryenumerator?view=netcore-2.2) |                                                                                                                                   |
 
-**Obs:** Evite reinventar a roda — em vez de construir suas próprias estruturas de dados, utilize as interfaces e coleções da estrutura das coleções do C#, que foram cuidadosamente testadas e ajustadas para atender aos requisitos da maioria dos aplicativos. Este repositório e estudo é para entender como as coisas funcionam e não com o objetivo de _reescrever_ algo que foi implementado pela linguagem. 
+**Obs:** Evite reinventar a roda — em vez de construir suas próprias estruturas de dados, utilize as interfaces e coleções da estrutura das coleções do C#, que foram cuidadosamente testadas e ajustadas para atender aos requisitos da maioria dos aplicativos. Este repositório e estudo é para entender como as coisas funcionam e não com o objetivo de _reescrever_ algo que foi implementado pela linguagem.
+
+### Relação das Interfaces e Collections
+![Relação das Interfaces](https://github.com/Camilotk/aprendendo_csharp/blob/master/Data%20Structures/interfaces_csharp.png)
 
 ## Indice de Estruturas de Dados
 - [Lists](https://github.com/Camilotk/aprendendo_csharp/tree/master/Data%20Structures/Lists)
