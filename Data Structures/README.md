@@ -18,6 +18,6 @@ Também é possivel usar essas interfaces para fazer as próprias implementaçõ
 
 ## Indice de Estruturas de Dados
 - [Lists](https://github.com/Camilotk/aprendendo_csharp/tree/master/Data%20Structures/Lists)
-- Sets
+- [Sets](https://github.com/Camilotk/aprendendo_csharp/tree/master/Data%20Structures/Sets)
 - Map
 - Queue
