@@ -14,7 +14,7 @@ Inserir um elemento entre os elementos existentes de um ArrayList é uma operaç
 
 ## Indice de Listas
 - [ArrayList](https://github.com/Camilotk/aprendendo_csharp/tree/master/Data%20Structures/Lists/ArrayList)
-- [LinkedList](#)
+- [LinkedList](https://github.com/Camilotk/aprendendo_csharp/tree/master/Data%20Structures/Lists/LinkedList)
 
 ### Referências
 - [When should I use a List vs a LinkedList?](https://stackoverflow.com/a/169983)
