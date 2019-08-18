@@ -47,8 +47,10 @@ namespace ArrayList
         // Des: Retorna os dados armazenados no indice passado
         // Recebe: indice (i) tipo inteiro
         // Retorna: elemento na posição i (element[i]) do tipo genérico
-        public T get(int i) {
-            if (i >= size || i < 0) {
+        public T get(int i) 
+        {
+            if (i >= size || i < 0) 
+            {
                 throw new System.IndexOutOfRangeException("Index: " + i + ", Size " + i );
             }
             return (T) elements[i];
