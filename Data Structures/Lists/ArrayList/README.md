@@ -5,19 +5,49 @@ A Estrutura ArrayList (List) é uma estrutura de vetor com capacidade de dinamic
 <img src="https://www.caelum.com.br/apostila-csharp-orientacao-objetos/imagens/listas/list.png" />
 </p>
 
-## Implementação em C#
+## Implementação básica em C#
 - [MyArrayList.cs](https://github.com/Camilotk/aprendendo_csharp/blob/master/Data%20Structures/Lists/ArrayList/Implementation/MyArrayList.cs)
 
 ### Propriedades
 O ArrayList possui três propriedades, uma que guarda o tamanho do ArrayList (*size*), uma constante que guarda a quantidade padrão de itens (capacidade, DEFAULT_CAPACITY) e um Array nativo que é instanciado no construtor com o tamanho padrão.
 ```C#
-// Propriedade que guarda o tamanho do ArrayList
 private int size = 0;
-// Constante que guarda o tamanho máximo padrão da implementação
 private static readonly int DEFAULT_CAPACITY = 10;
-// Array de objetos onde os elementos serão colocados
 private Object[] elements;
 ```
+### Método Add
+A implementação do método **.Add(** *Object o* **)** recebe o objeto do tipo genérico <T> declarado quando a classe é criada, a vantagem de utlizar tipos genéricos ao invés de Object é que quando o método recebe um objeto acontece a checagem se o tipo do objeto é o mesmo declarado na classe.
 
+**Linhas 3-6**
+```C#
+namespace ArrayList
+{
+    public class MyArrayList<T>
+    {  
+```
+**Linhas 24-33**  
+```C#
+public void add(T e)
+{
+  if (size == elements.Length)
+  {
+    this.resize();
+  }
+  elements[size++] = e;
+}
+```
+Primeiramente, se o número de elementos for igual ao tamanho do ArrayList, será chamado o método **.resize()**. Então, o objeto será adicionado no final do array (após o incrementar o valor de *size*, o valor é passado como índice).
+
+### Método Resize
+É um método chamado internamente pela classe sempre quando o tamanho atinge o mesmo valor do número de elementos, esse é o método responsável pela **alocação dinâmica** do número de objetos que o ArrayList guarda. Então, o valor do número de elementos no array nativo implementado na classe, multiplicado por dois é guardado na variável *newSize*. 
+Após isso, é utilizado o método **Array.Copy(** *array*, *array*, *int* **)**[¹]()  que copia um array para outro com um novo tamanho, e é passado então para que elements seja aumentado com o tamanho definido em *newSize*.
+```C#
+public void resize()
+{
+  int newSize = elements.Length * 2;
+  Array.Resize(ref elements, newSize);
+}
+```
+### Método Get
 # Referências
 - [Trabalho com listas - Caelum](https://www.caelum.com.br/apostila-csharp-orientacao-objetos/trabalhando-com-listas/)
