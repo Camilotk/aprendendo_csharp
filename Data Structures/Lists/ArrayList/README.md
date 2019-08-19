@@ -36,10 +36,10 @@ public void add(T e)
   elements[size++] = e;
 }
 ```
-Primeiramente, se o número de elementos for igual ao tamanho do ArrayList, será chamado o método **.resize()**. Então, o objeto será adicionado no final do array (após o incrementar o valor de *size*, o valor é passado como índice).
+Primeiramente, se o número de elementos for igual ao tamanho do List, será chamado o método **.resize()**. Então, o objeto será adicionado no final do array (após o incrementar o valor de *size*, o valor é passado como índice).
 
 ### Método Resize
-É um método chamado internamente pela classe sempre quando o tamanho atinge o mesmo valor do número de elementos, esse é o método responsável pela **alocação dinâmica** do número de objetos que o ArrayList guarda. Então, o valor do número de elementos no array nativo implementado na classe, multiplicado por dois é guardado na variável *newSize*. 
+É um método chamado internamente pela classe sempre quando o tamanho atinge o mesmo valor do número de elementos, esse é o método responsável pela **alocação dinâmica** do número de objetos que o List guarda. Então, o valor do número de elementos no array nativo implementado na classe, multiplicado por dois é guardado na variável *newSize*. 
 Após isso, é utilizado o método **Array.Copy(** *array*, *array*, *int* **)**[¹]()  que copia um array para outro com um novo tamanho, e é passado então para que elements seja aumentado com o tamanho definido em *newSize*.
 ```C#
 public void resize()
