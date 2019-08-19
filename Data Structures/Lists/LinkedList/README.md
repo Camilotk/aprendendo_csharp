@@ -58,7 +58,7 @@ public void AddFirst(Object data)
 }
 ```
 ### Método AddLast
-
+O método **.AddLast(** ** *Object* ou *<T>* **)**, primeiramente checa se o último nó não existe (null), caso seja, instancia um novo nó que recebe o objeto como *data* (dados) e null como *next* (próximo nó). Caso exista, ele instancia um novo nó que recebe o objeto passado como *data* (dados) e então percorre toda a lista até o último elemento, quando chega ao último (primeiro adicionado) ele coloca esse nó criado como *next*.
 
 ```C#
 public void AddLast(Object data)
