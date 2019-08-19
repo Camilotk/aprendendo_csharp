@@ -26,9 +26,13 @@ A LinkedList é uma estrutura de dados linear, consiste de um grupo de nós em s
 
 ## Implementação de uma Single LinkedList em C#
 Optei por mostrar a implementação de uma *single linkedlist* por ser a estrutura mais simples de implementar, mas a partir de sua implementação é fácil de implementar *Double LinkedLists* (adicionando a ref. do nó anterior ao nó) e *Circular LinkedLists* (adicionando a ref. do primeiro nó caso o próximo seja nulo).
-- [LinkedList.cs](https://github.com/Camilotk/aprendendo_csharp/blob/master/Data%20Structures/Lists/LinkedList/Implementation/LinkedList.cs)
-- [Node.cs](https://github.com/Camilotk/aprendendo_csharp/blob/master/Data%20Structures/Lists/LinkedList/Implementation/Node.cs)
 
+- [Node.cs](https://github.com/Camilotk/aprendendo_csharp/blob/master/Data%20Structures/Lists/LinkedList/Implementation/Node.cs)
+- [LinkedList.cs](https://github.com/Camilotk/aprendendo_csharp/blob/master/Data%20Structures/Lists/LinkedList/Implementation/LinkedList.cs)
+## Node.cs
+### Propriedades
+
+## LinkedList.cs
 ### Propriedades
 
 ### Método Add
