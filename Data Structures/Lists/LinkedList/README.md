@@ -6,13 +6,23 @@ A LinkedList é uma estrutura de dados linear, consiste de um grupo de nós em s
 </p>
 
 ## Tipos de LinkedList
-- Single LinkedList: Cada nó contêm a informação do próximo nó e a data que estão guardando, fazendo com que todos os acessos sejam sequenciais sempre do primeiro até o último nó.
+- Single LinkedList: Cada nó contêm a informação do próximo nó e o dado que estão guardando, fazendo com que todos os acessos sejam sequenciais sempre do primeiro até o último nó.
 
 <p align="center">
 <img src="https://github.com/Camilotk/aprendendo_csharp/blob/master/Data%20Structures/Lists/LinkedList/single_linkedlist.webp" />
 </p>
 
-- Double LinkedList:
+- Double LinkedList: Cada nó contêm a informação do nó anterior e do próximo nó, além do dado que estão guardando. Permitindo que sejam acessados tanto do primeiro até o último nó, quanto do último até o primeiro nó.
+
+<p align="center">
+<img src="https://github.com/Camilotk/aprendendo_csharp/blob/master/Data%20Structures/Lists/LinkedList/double_linkedlist.webp" />
+</p>
+
+- Circular LinkedList: Estrutura similar ao single linkedlist em que cada nó contêm a informação do próximo nó e o dado que estão guardando, exceto pelo último nó guardar a referência do primeiro, permitindo que seu acesso possa facilmente ser reiniciado.
+
+<p align="center">
+<img src="https://github.com/Camilotk/aprendendo_csharp/blob/master/Data%20Structures/Lists/LinkedList/circular_linkedlist.webp" />
+</p>
 
 ## Implementação de uma Single LinkedList em C#
 - []()
