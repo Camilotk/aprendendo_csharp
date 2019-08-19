@@ -20,7 +20,11 @@ Também é possivel usar essas interfaces para fazer as próprias implementaçõ
 ![Relação das Interfaces](https://github.com/Camilotk/aprendendo_csharp/blob/master/Data%20Structures/interfaces_csharp.png)
 
 ## Indice de Estruturas de Dados
-- [Lists](https://github.com/Camilotk/aprendendo_csharp/tree/master/Data%20Structures/Lists)
-- [Sets](https://github.com/Camilotk/aprendendo_csharp/tree/master/Data%20Structures/Sets)
-- Map
-- Queue
+* básicas:
+  - [Lists](https://github.com/Camilotk/aprendendo_csharp/tree/master/Data%20Structures/Lists)
+  - [Sets](https://github.com/Camilotk/aprendendo_csharp/tree/master/Data%20Structures/Sets)
+  - Dictionaries
+* derivadas:
+  - Heap
+  - Queue
+  - Tree
