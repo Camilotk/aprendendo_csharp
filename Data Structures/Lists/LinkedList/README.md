@@ -30,8 +30,13 @@ Optei por mostrar a implementação de uma *single linkedlist* por ser a estrutu
 - [Node.cs](https://github.com/Camilotk/aprendendo_csharp/blob/master/Data%20Structures/Lists/LinkedList/Implementation/Node.cs)
 - [LinkedList.cs](https://github.com/Camilotk/aprendendo_csharp/blob/master/Data%20Structures/Lists/LinkedList/Implementation/LinkedList.cs)
 ## Node.cs
+Node (nó) é uma **classe autorreferencial**, ou seja, contêm uma propriedade que instancia um objeto que é da mesma classe que a própria classe. Neste caso, Node, armazena o próximo Node (nó) guardando-o na propriedade do próprio tipo *next*. O nó também possui outra propriedade chamada data que guarda o objeto genérico (<T>) ou gerar(Object) armazenado na LinkedList.
+  
 ### Propriedades
-
+```C#
+public Node next;
+public Object data;
+```
 ## LinkedList.cs
 ### Propriedades
 
