@@ -25,7 +25,7 @@ A LinkedList é uma estrutura de dados linear, consiste de um grupo de nós em s
 </p>
 
 ## Implementação de uma Single LinkedList em C#
-Optei por mostrar a implementação de uma *single linkedlist* por ser a estrutura mais simples de implementar, mas a partir de sua implementação é fácil de implementar *Double LinkedLists* (adicionando a ref. do nó anterior ao nó) e *Circular LinkedLists* (adicionando a ref. do primeiro nó caso o próximo seja nulo).
+Optei por mostrar a implementação de uma *Single LinkedList* por ser a estrutura mais simples de implementar, mas a partir de sua implementação é fácil de implementar *Double LinkedLists* (adicionando a ref. do nó anterior ao nó) e *Circular LinkedLists* (adicionando a ref. do primeiro nó caso o próximo seja nulo).
 
 - [Node.cs](https://github.com/Camilotk/aprendendo_csharp/blob/master/Data%20Structures/Lists/LinkedList/Implementation/Node.cs)
 - [LinkedList.cs](https://github.com/Camilotk/aprendendo_csharp/blob/master/Data%20Structures/Lists/LinkedList/Implementation/LinkedList.cs)
@@ -57,7 +57,31 @@ public void AddFirst(Object data)
   head = toAdd;
 }
 ```
-  
+### Método AddLast
+
+
+```C#
+public void AddLast(Object data)
+{
+  if (head == null)
+  {
+    head = new Node();
+    head.data = data;
+    head.next = null;
+  }
+    else
+  {
+    Node toAdd = new Node();
+    toAdd.data = data;
+    Node current = head;
+    while (current.next != null)
+    {
+      current = current.next;
+    }
+    current.next = toAdd;
+  }
+}
+```
 # Referências
 - [What is linked list?](https://www.quora.com/What-is-linked-list-1)
 - [Algoritmos e Estruturas de Dados/Lista encadeada](https://pt.wikibooks.org/wiki/Algoritmos_e_Estruturas_de_Dados/Lista_encadeada)
