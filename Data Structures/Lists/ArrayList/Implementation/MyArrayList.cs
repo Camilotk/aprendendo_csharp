@@ -1,8 +1,8 @@
 using System;
 
-namespace ArrayList
+namespace List
 {
-    public class MyArrayList<T>
+    public class MyList<T>
     {
         // Propriedade que guarda o tamanho do ArrayList
         private int size = 0;
