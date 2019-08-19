@@ -38,10 +38,26 @@ public Node next;
 public Object data;
 ```
 ## LinkedList.cs
+
 ### Propriedades
+A única propriedade que a forma mais simples de LinkedList implementa (pode implementar mais propriedades conforme implementação, como *tail*...) é a propriedade privada *head* que guarda o nó que está na ponta da LinkedList (último adicionado).
 
-### Método Add
-
+```C#
+private Node head;
+```
+### Método AddFirst
+O método **.AddFirst(** *Object* ou *<T>* **)**, primeiramente instancia um novo nó. Coloca o objeto passado como a propriedade *data* do Node (nó). Então, coloca o nó antigo (mesmo se for null) como next. Após isso, coloca o nó instanciado como a propriedade *head* da LinkedList, que representa o último nó adicionado.
+  
+```C#
+public void AddFirst(Object data)
+{
+  Node toAdd = new Node();
+  toAdd.data = data;
+  toAdd.next = head;
+  head = toAdd;
+}
+```
+  
 # Referências
 - [What is linked list?](https://www.quora.com/What-is-linked-list-1)
 - [Algoritmos e Estruturas de Dados/Lista encadeada](https://pt.wikibooks.org/wiki/Algoritmos_e_Estruturas_de_Dados/Lista_encadeada)
