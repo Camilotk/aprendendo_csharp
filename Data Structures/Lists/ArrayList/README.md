@@ -40,7 +40,7 @@ Primeiramente, se o número de elementos for igual ao tamanho do List, será cha
 
 ### Método Resize
 É um método chamado internamente pela classe sempre quando o tamanho atinge o mesmo valor do número de elementos, esse é o método responsável pela **alocação dinâmica** do número de objetos que o List guarda. Então, o valor do número de elementos no array nativo implementado na classe, multiplicado por dois é guardado na variável *newSize*. 
-Após isso, é utilizado o método **Array.Copy(** *array*, *array*, *int* **)**[¹]()  que copia um array para outro com um novo tamanho, e é passado então para que elements seja aumentado com o tamanho definido em *newSize*.
+Após isso, é utilizado o método **Array.Resize(** *array*, *array*, *int* **)**[¹](http://www.source-code.biz/snippets/csharp/1.htm)[²](https://docs.microsoft.com/pt-br/dotnet/api/system.array.resize?view=netcore-2.2) que copia um array para outro com um novo tamanho, e é passado então para que elements seja aumentado com o tamanho definido em *newSize*.
 ```C#
 public void resize()
 {
