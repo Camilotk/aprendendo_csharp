@@ -16,6 +16,7 @@ Em certo momento surgiu a necessidade de que eu aprendesse C#, tanto para a util
 - [Dapper](#)
 - [LINQ](#)
 ### Algoritmos e Estrutura de Dados
+- [Algoritmos](#)
 - [Estrutura de Dados](https://github.com/Camilotk/aprendendo_csharp/tree/master/Data%20Structures)
 ### SOLID, Principios de OO e Design Patterns
 - [Principios de OO](#)
