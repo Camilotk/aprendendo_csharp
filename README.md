@@ -13,6 +13,7 @@ Em certo momento surgiu a necessidade de que eu aprendesse C#, tanto para a util
 ### Banco de Dados
 - [Entity Framework Core](https://github.com/Camilotk/aprendendo_csharp/blob/master/ENTITY.md)
 - [Dapper](#)
+- [LINQ](#)
 ### Algoritmos e Estrutura de Dados
 - [Estrutura de Dados](https://github.com/Camilotk/aprendendo_csharp/tree/master/Data%20Structures)
 ### SOLID, Principios de OO e Design Patterns
