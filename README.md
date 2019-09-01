@@ -6,21 +6,36 @@
 Em certo momento surgiu a necessidade de que eu aprendesse C#, tanto para a utilização com a API de programas 3D que eu já utilizo, quanto para que eu conseguisse ministrar aulas de Unity e para trabalhos da faculdade. Criei esse repositório para armazenar as informações que preciso e exemplos de código durante a transição para a plataforma .NET
 
 ## Sumário
-### Instalação e Configuração de Ambiente
+### Instalação, Pacotes e Configuração de Ambiente
 - [Instalando o Ambiente de Desenvolvimento (VSCode)](https://github.com/Camilotk/aprendendo_csharp/blob/master/INSTALLATION.md)
 - [Utilizando os comandos do Powershell](https://github.com/Camilotk/aprendendo_csharp/blob/master/POWERSHELL.md)
-### Banco de Dados, Testes e Pacotes
 - [Nuget](https://github.com/Camilotk/aprendendo_csharp/blob/master/NUGET.md)
+### Banco de Dados
 - [Entity Framework Core](https://github.com/Camilotk/aprendendo_csharp/blob/master/ENTITY.md)
-- [MSTest]()
-### Estrutura de Dados, SOLID e Design Patterns
+- [Dapper](#)
+### Algoritmos e Estrutura de Dados
 - [Estrutura de Dados](https://github.com/Camilotk/aprendendo_csharp/tree/master/Data%20Structures)
+### SOLID, Principios de OO e Design Patterns
+- [Principios de OO](#)
 - [SOLID](#)
 - [Design Patterns](https://github.com/Camilotk/aprendendo_csharp/tree/master/Design%20Patterns)
+### TDD e Testes
+- [MSTest](#)
+- [XUnit](#)
+- [TDD](#)
 ### ASP.NET Core
 - [ASP.net Core](https://docs.microsoft.com/pt-br/aspnet/core/?view=aspnetcore-2.2)
-### SciSharp, Xamarin e Blockchain
+- [Blazor](#)
+### Xamarin
+- [Mono](#)
 - [Xamarin](https://docs.microsoft.com/pt-br/xamarin/cross-platform/get-started/)
+### Arquitetura
+- [MVP](#)
+- [MVC](#)
+- [MVVM](#)
+### Machine Learning
 - [SciSharp](https://github.com/SciSharp)
+- [.NET ML](#)
+### Blockchain
 - [Blockchain](https://www.c-sharpcorner.com/article/blockchain-basics-building-a-blockchain-in-net-core/)
 
