@@ -10,13 +10,13 @@ Em certo momento surgiu a necessidade de que eu aprendesse C#, tanto para a util
 - [Instalando o Ambiente de Desenvolvimento (VSCode)](https://github.com/Camilotk/aprendendo_csharp/blob/master/INSTALLATION.md)
 - [Utilizando os comandos do Powershell](https://github.com/Camilotk/aprendendo_csharp/blob/master/POWERSHELL.md)
 - [Nuget](https://github.com/Camilotk/aprendendo_csharp/blob/master/NUGET.md)
-- [C# REPL](https://github.com/scriptcs/scriptcs)
+- [C# REPL](https://github.com/scriptcs/scriptcs)*
 ### Banco de Dados
 - [Entity Framework Core](https://github.com/Camilotk/aprendendo_csharp/blob/master/ENTITY.md)
-- [Dapper](#)
-- [LINQ](#)
+- [Dapper](#)*
+- [LINQ](#)*
 ### Algoritmos e Estrutura de Dados
-- [Algoritmos](#)
+- [Algoritmos](#)*
 - [Estrutura de Dados](https://github.com/Camilotk/aprendendo_csharp/tree/master/Data%20Structures)
 ### SOLID, Principios de OO e Design Patterns
 - [Principios de OO](#)
