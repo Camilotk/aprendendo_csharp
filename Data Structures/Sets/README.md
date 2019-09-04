@@ -5,6 +5,13 @@ Os *Sets* (Conjuntos) são coleções de objetos e valores únicos. Existem dive
 
 Os HashSets e SortedLists possuem diferentes usos dependendo do tipo de problema que se está resolvendo, sua principal diferença por baixo dos panos é que os HashSets utilizam-se da implementação de um algoritmo de Hash Table (Tabela de Dispersão) <SUP>[2](https://pt.wikipedia.org/wiki/Tabela_de_dispers%C3%A3o)</SUP> com a finalidade de armazenar os dados em conjuntos sem que haja a repetição, uma característica dessse algoritmo é uma maior eficiência em processamento e velocidade, porém os itens ficam organizados de forma não ordenada e uma nova inserção pode resultar em uma reorganização (realocação) dos indices da coleção como um todo, enquanto o SortedSet utiliza-se de balanced binary-tree ou red-black tree (Árvores Rubro-negras) <SUP>[3](https://pt.wikipedia.org/wiki/%C3%81rvore_rubro-negra)</SUP> para organizar as coleções, o que resulta em algoritmos que exigem maior computação, porém capazes de armazenar os dados de forma ordenada o que permite buscas eficientes e operações como fatiamento de listas <SUP>[4](https://docs.microsoft.com/pt-br/dotnet/api/system.collections.generic.sortedset-1.getviewbetween?view=netcore-3.0#System_Collections_Generic_SortedSet_1_GetViewBetween__0__0_)</SUP> de forma precisa e segura.
 
+## Eficiência
+|Operação| HashSet (*Média*) | HashSet (*Pior Caso*) | SortedSet (*Média*) | SortedSet(*Pior Caso*)|
+|--------|-------------------|-----------------------|---------------------|-----------------------|
+| Search | O(1)              | O(n)                  | O(*log n*)          | O(*log n*)            |   
+| Insert | O(1)              | O(n)                  | O(*log n*)          | O(*log n*)            |   
+| Delete | O(1)              | O(n)                  | O(*log n*)          | O(*log n*)            |   
+
 ## Índice de Sets
 - [HashSet](#)
 - [SortedSet](#)
