@@ -23,6 +23,7 @@ namespace SetsTest.HashSet
 
         public MyHashSet()
         {
+            numberOfElements = 0;
             map = new Dictionary<T, object>();
         }
 
@@ -37,6 +38,7 @@ namespace SetsTest.HashSet
                 // Tenta adicionar um novo objeto ao Map
                 // Caso ele já exista irá lançar uma Exceção
                 map.Add(item, PRESENT);
+                numberOfElements++;
                 return true;
             }
             catch(ArgumentException e)
