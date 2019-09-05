@@ -3,7 +3,9 @@ Os HashSets (Conjunto de Dispersão) é um tipo de estrutura que tenta otimizar 
 
 Assim como LinkedLists implementam um Array primitivo que armazena os objetos passados, os HashSets implementam uma estrutura de Dicionário que recebe dois valores, o valor passado em si e o objeto que representa se o objeto passado já está inserido ou não. 
 
-<img src="https://en.wikipedia.org/wiki/Hash_table#/media/File:Hash_table_3_1_1_0_1_0_0_SP.svg">
+<center>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg/640px-Hash_table_3_1_1_0_1_0_0_SP.svg.png">
+</center>
 
 ## Implementação básica em C#
 - [MyHashSet.cs](https://github.com/Camilotk/aprendendo_csharp/blob/master/Data%20Structures/Sets/HashSet/Implementation/MyHashSet.cs)
