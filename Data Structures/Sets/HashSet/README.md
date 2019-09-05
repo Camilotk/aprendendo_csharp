@@ -19,3 +19,5 @@ Assim como LinkedLists implementam um Array primitivo que armazena os objetos pa
  - [How HashSet is internally implemented in Java?](https://codepumpkin.com/hashset-internal-implementation/)
  - [VERY simple C# Set implementation](https://codereview.stackexchange.com/questions/126263/very-simple-c-set-implementation/126266)
  - [Lidando com conjuntos](https://www.caelum.com.br/apostila-csharp-orientacao-objetos/lidando-com-conjuntos/)
+ - [Set - Wikipedia](https://en.wikipedia.org/wiki/Set_(abstract_data_type))
+ - [HashTable - Wikipedia](https://en.wikipedia.org/wiki/Hash_table)
