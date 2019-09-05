@@ -20,7 +20,9 @@ Assim como LinkedLists implementam um Array primitivo que armazena os objetos pa
 **Linhas 17 a 22**
 
 A propriedade **map** é a HashTable (Tabela de Disperção) que guarda os objetos passados, a maior parte das implementações já vem por default dos métodos que a classe Dictionary<T, K> das collections de C# possui.
+
 A propriedade PRESENT é uma propriedade imutável do tipo objeto sem implementação derivada que representa o objeto adicionado, ele serve para checar se um dos objetos inseridos já está no conjunto ou se o objeto buscado está presente no conjunto.
+
 A propriedade do tipo unsigned integer (inteiro positivo ou I<sup>*</sup><sub>+</sub>) é o número de elementos já adicionados ao conjunto.
 
 ```C#
