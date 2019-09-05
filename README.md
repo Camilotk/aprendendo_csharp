@@ -3,7 +3,9 @@
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/Camilotk/teste_skeel/issues/new)
 
-Em certo momento surgiu a necessidade de que eu aprendesse C#, tanto para a utilização com a API de programas 3D que eu já utilizo, quanto para que eu conseguisse ministrar aulas de Unity e para trabalhos da faculdade. Criei esse repositório para armazenar as informações que preciso e exemplos de código durante a transição para a plataforma .NET
+Em certo momento surgiu a necessidade de que eu aprendesse C#, tanto para a utilização com a API de programas 3D que eu já utilizo, quanto para que eu conseguisse ministrar aulas de Unity, vagas de emprego e para trabalhos da faculdade. Criei esse repositório para armazenar as informações que preciso e exemplos de código durante a transição para a plataforma .NET. A ideia principal deste repositório é servir como uma **fonte aberta, gratuita e comunitária de informações em português sobre a programação em C#** e principalmente de suas implementações multiplataforma (.NET Core e Mono).
+
+As principais inspirações desse projeto é a Open Source Society University (OSSU)<sup>[1](https://github.com/ossu/computer-science)</sup> e os Open Curriculums<sup>[2](https://github.com/llSourcell/Learn_Machine_Learning_in_3_Months)</sup> de Data Science, Ciência da Computação e Blockchain do Professor Siraj Raval. 
 
 ## Sumário
 ### Instalação, Pacotes e Configuração de Ambiente
