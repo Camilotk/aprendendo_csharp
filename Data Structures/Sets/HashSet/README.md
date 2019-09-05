@@ -135,7 +135,7 @@ namespace SetsTest
                 "pears",
                 "orange",
                 "pears",
-                "mirtilo",
+                "blueberry",
                 "apple"
 
             };
@@ -168,7 +168,7 @@ apple
 orange
 peaches
 pears
-mirtilo
+blueberry
 ---------
 Elementos no Conjunto: 5
 ```
