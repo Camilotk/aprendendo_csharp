@@ -1,1 +1,2 @@
-# Sorted Set
+# SortedSet
+A estrutura de SortedSet (Conjuntos Ordenados) permitem armazenar um conjunto de valores únicos ordenados de forma crescente, pelo seu valor natural - alfabético ou numérico - ou ordem especificada diretamente por um Objeto do tipo Comparator. Diferentemente do HashSet em que os elementos são ordenados conforme seu valor de Hash que por definição não conhecemos, o SortedSet guarda os elementos de forma ordenada, facilitando possiveis buscas que possam ser otimizadas por buscas ou métodos que possam beneficiar-se de ter os elementos ordenados (Ex: Um algoritmo que busca o nome de pessoas em uma lista telefônica cujo o nome inicie com uma letra entre M..Z do alfabeto). 
