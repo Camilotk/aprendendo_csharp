@@ -80,7 +80,7 @@ public bool Add(T item)
 ```
 
 ### Método .Clear()
-**Linhas 60 a 64 **
+**Linhas 60 a 64**
 
 Simplesmente limpa o map, utiliza-se da própria implantação do mesmo.
 ```C#
@@ -91,7 +91,7 @@ public void Clear()
 ```
 
 ### Método .Contains()
-**Linhas 66 a 71 **
+**Linhas 66 a 71**
 
 Retorna um valor booleano se o elemento do tipo genérico passsado está presente no HashSet, utiliza-se da própria implantação do mesmo.
 ```C#
