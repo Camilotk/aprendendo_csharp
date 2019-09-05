@@ -5,7 +5,7 @@
 
 Em certo momento surgiu a necessidade de que eu aprendesse C#, tanto para a utilização com a API de programas 3D que eu já utilizo, quanto para que eu conseguisse ministrar aulas de Unity, vagas de emprego e para trabalhos da faculdade. Criei esse repositório para armazenar as informações que preciso e exemplos de código durante a transição para a plataforma .NET. A ideia principal deste repositório é servir como uma **fonte aberta, gratuita e comunitária de informações em português sobre a programação em C#** e principalmente de suas implementações multiplataforma (.NET Core e Mono).
 
-As principais inspirações desse projeto é a Open Source Society University (OSSU)<sup>[1](https://github.com/ossu/computer-science)</sup> e os Open Curriculums<sup>[2](https://github.com/llSourcell/Learn_Machine_Learning_in_3_Months)</sup> de Data Science, Ciência da Computação e Blockchain do Professor Siraj Raval. 
+As principais inspirações desse projeto é a Open Source Society University (OSSU)<sup>[1](https://github.com/ossu/computer-science)</sup> e os Open Curriculums<sup>[2](https://github.com/llSourcell/Learn_Machine_Learning_in_3_Months)</sup> de Data Science, Ciência da Computação e Blockchain do Professor Siraj Raval. Espero que o material seja útil à todos, qualquer dúvida, sugestão ou pedido pode ser adicionado no campo de Issues e qualquer correção, adição ou revisão pode ser feita através de Pull Request a ajuda e feedback de todos não é somente bem-vinda, quanto necessária para manter a qualidade, consistência e coesão do conteúdo.
 
 ## Sumário
 ### Instalação, Pacotes e Configuração de Ambiente
