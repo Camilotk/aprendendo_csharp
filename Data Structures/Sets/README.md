@@ -14,7 +14,7 @@ Os HashSets e SortedLists possuem diferentes usos dependendo do tipo de problema
 
 ## Índice de Sets
 - [HashSet](https://github.com/Camilotk/aprendendo_csharp/tree/master/Data%20Structures/Sets/HashSet)
-- [SortedSet](#)
+- [SortedSet](https://github.com/Camilotk/aprendendo_csharp/tree/master/Data%20Structures/Sets/SortedSet)
 
 ### Referências
 - [SortedSet<T> vs HashSet<T>](https://stackoverflow.com/questions/4622736/sortedsett-vs-hashsett)
