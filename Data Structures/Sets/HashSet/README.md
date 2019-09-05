@@ -129,14 +129,14 @@ namespace SetsTest
         static void Main(string[] args)
         {
             List<string> fruits = new List<string>(){
-                "apple",
-                "orange",
+                "apples",
+                "oranges",
                 "peaches",
                 "pears",
-                "orange",
+                "oranges",
                 "pears",
-                "blueberry",
-                "apple"
+                "blueberrys",
+                "apples"
 
             };
 
@@ -160,15 +160,15 @@ namespace SetsTest
 **Output:**
 ```
 ---------
-An item with the same key has already been added. Key: orange
+An item with the same key has already been added. Key: oranges
 An item with the same key has already been added. Key: pears
-An item with the same key has already been added. Key: apple
+An item with the same key has already been added. Key: apples
 ---------
-apple
-orange
+apples
+oranges
 peaches
 pears
-blueberry
+blueberrys
 ---------
 Elementos no Conjunto: 5
 ```
