@@ -20,4 +20,3 @@ Os HashSets e SortedLists possuem diferentes usos dependendo do tipo de problema
 - [SortedSet<T> vs HashSet<T>](https://stackoverflow.com/questions/4622736/sortedsett-vs-hashsett)
 - [Trabalhando com a Interface Set no Java](http://www.linhadecodigo.com.br/artigo/3669/trabalhando-com-a-interface-set-no-java.aspx)
 - [Set Operations](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/linq/set-operations)
-- [ref](#)
