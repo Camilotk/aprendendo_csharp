@@ -2,6 +2,9 @@
 Os HashSets (Conjunto de Dispersão) é um tipo de estrutura que tenta otimizar o trabalho de uma Lista para que contenha apenas valores únicos. Além disso, a garantia de unicidade também facilida o trabalho de busca por determinado item, uma vez em que o HashSet categoriza os items armazenados de forma que consiga garantir de forma eficiente que não há nenhum elemento duplicado. Os HashSets depedem diretamente da função **.GetHashCode()** que pertence à Classe Object do C#, essa função retorna um código único**¹** para cada objeto o que garante que cada objeto contido no Conjunto é único. 
 
 Assim como LinkedLists implementam um Array primitivo que armazena os objetos passados, os HashSets implementam uma estrutura de Dicionário que recebe dois valores, o valor passado em si e o objeto que representa se o objeto passado já está inserido ou não. 
+
+![alt](https://en.wikipedia.org/wiki/Hash_table#/media/File:Hash_table_3_1_1_0_1_0_0_SP.svg)
+
 ## Implementação básica em C#
 - [MyHashSet.cs](https://github.com/Camilotk/aprendendo_csharp/blob/master/Data%20Structures/Sets/HashSet/Implementation/MyHashSet.cs)
 # Referências
