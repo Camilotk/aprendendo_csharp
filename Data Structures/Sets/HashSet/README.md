@@ -23,7 +23,7 @@ A propriedade **map** é a HashTable (Tabela de Disperção) que guarda os objet
 
 A propriedade PRESENT é uma propriedade imutável do tipo objeto sem implementação derivada que representa o objeto adicionado, ele serve para checar se um dos objetos inseridos já está no conjunto ou se o objeto buscado está presente no conjunto.
 
-A propriedade do tipo unsigned integer (inteiro positivo ou I<sup>*</sup><sub>+</sub>) é o número de elementos já adicionados ao conjunto.
+A propriedade do tipo unsigned integer (inteiro positivo ou I<sup>+</sup>) é o número de elementos já adicionados ao conjunto.
 
 ```C#
 Dictionary<T, Object> map;
@@ -31,8 +31,42 @@ private static readonly Object PRESENT = new Object();
 private uint numberOfElements;
 ```
 ### Método Construtor
+**Linhas 24 a 28**
+
+O método construtor público e sem parâmetros simplesmente inicializa o número de elementos em 0 e instancia o novo dicionário que irá guardar os elementos do HashSet. 
+
+```C#
+public MyHashSet()
+{
+  numberOfElements = 0;
+  map = new Dictionary<T, object>();
+}
+```
 
 ### Método .Add()
+
+O método **.Add(** *Object* **)** recebe um item do tipo genérico do HashSet e utiliza a estrutura de try-catch para tentar adicionar esse elemento no dicionário **map**, caso seu Hash já esteja registrado em map, irá retornar uma exeção **ArgumentException** que será tratada e irá imprimir no console que esse objeto já está adicionado ao map. Qualquer outra exceção retorna falso.
+
+```C#
+public bool Add(T item)
+{
+  try
+  {
+    map.Add(item, PRESENT);
+    numberOfElements++;
+    return true;
+  }
+  catch(ArgumentException e)
+  {
+    Console.WriteLine(e.Message);
+    return false;
+  }
+  catch(Exception)
+  {
+    return false;
+  }
+}
+```
 
 ### Método .Remove()
 
