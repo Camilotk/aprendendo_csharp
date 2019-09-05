@@ -17,7 +17,17 @@ Assim como LinkedLists implementam um Array primitivo que armazena os objetos pa
 - [MyHashSet.cs](https://github.com/Camilotk/aprendendo_csharp/blob/master/Data%20Structures/Sets/HashSet/Implementation/MyHashSet.cs)
 
 ### Propriedades
+**Linhas 17 a 22**
 
+A propriedade **map** é a HashTable (Tabela de Disperção) que guarda os objetos passados, a maior parte das implementações já vem por default dos métodos que a classe Dictionary<T, K> das collections de C# possui.
+A propriedade PRESENT é uma propriedade imutável do tipo objeto sem implementação derivada que representa o objeto adicionado, ele serve para checar se um dos objetos inseridos já está no conjunto ou se o objeto buscado está presente no conjunto.
+A propriedade do tipo unsigned integer (inteiro positivo ou I<sup>*</sup><sub>+</sub>) é o número de elementos já adicionados ao conjunto.
+
+```C#
+Dictionary<T, Object> map;
+private static readonly Object PRESENT = new Object();
+private uint numberOfElements;
+```
 ### Método Construtor
 
 ### Método .Add()
@@ -56,6 +66,7 @@ namespace SetsTest
             };
 
             MyHashSet<string> fruits_group = new MyHashSet<string>();
+            Console.WriteLine("---------");
             foreach (var fruit in fruits)
             {
                 fruits_group.Add(fruit);
@@ -65,12 +76,15 @@ namespace SetsTest
             {
                 Console.WriteLine(fruit);
             }
+            Console.WriteLine("---------");
+            Console.WriteLine("Elementos no Conjunto: {0}", fruits_group.Count);
         }
     }
 }
 ```
 **Output:**
 ```
+---------
 An item with the same key has already been added. Key: orange
 An item with the same key has already been added. Key: pears
 An item with the same key has already been added. Key: apple
@@ -80,6 +94,8 @@ orange
 peaches
 pears
 mirtilo
+---------
+Elementos no Conjunto: 5
 ```
 # Referências
  - [How HashSet is internally implemented in Java?](https://codepumpkin.com/hashset-internal-implementation/)
