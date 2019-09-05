@@ -6,6 +6,7 @@ Assim como LinkedLists implementam um Array primitivo que armazena os objetos pa
 <div align="center">
   <figure>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg/320px-Hash_table_3_1_1_0_1_0_0_SP.svg.png">
+    <br>
      <figcaption>
         <i style="font-size=6px;">Exemplo de HashTable - Dicionário - que armazena os elementos.</i>
      </figcaption>  
