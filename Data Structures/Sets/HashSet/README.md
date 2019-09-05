@@ -15,6 +15,58 @@ Assim como LinkedLists implementam um Array primitivo que armazena os objetos pa
 
 ## Implementação básica em C#
 - [MyHashSet.cs](https://github.com/Camilotk/aprendendo_csharp/blob/master/Data%20Structures/Sets/HashSet/Implementation/MyHashSet.cs)
+
+## Exemplo de Uso
+Podemos passar todos os itens de uma lista para um conjunto com a finalidade de garantir que não haja itens repetidos.
+
+```C#
+using System;
+using System.Collections.Generic;
+using SetsTest.HashSet;
+
+namespace SetsTest
+{
+    class Program
+    {
+        // Oranges, peach, pears, plums, syringes
+        static void Main(string[] args)
+        {
+            List<string> fruits = new List<string>(){
+                "apple",
+                "orange",
+                "peaches",
+                "pears",
+                "orange",
+                "pears",
+                "mirtilo",
+                "apple"
+
+            };
+
+            MyHashSet<string> fruits_group = new MyHashSet<string>();
+            foreach (var fruit in fruits)
+            {
+                fruits_group.Add(fruit);
+            }
+            foreach (var fruit in fruits_group)
+            {
+                Console.WriteLine(fruit);
+            }
+        }
+    }
+}
+```
+**Output:**
+```
+An item with the same key has already been added. Key: orange
+An item with the same key has already been added. Key: pears
+An item with the same key has already been added. Key: apple
+apple
+orange
+peaches
+pears
+mirtilo
+```
 # Referências
  - [How HashSet is internally implemented in Java?](https://codepumpkin.com/hashset-internal-implementation/)
  - [VERY simple C# Set implementation](https://codereview.stackexchange.com/questions/126263/very-simple-c-set-implementation/126266)
