@@ -13,7 +13,7 @@ Os HashSets e SortedLists possuem diferentes usos dependendo do tipo de problema
 | Delete | O(1)              | O(n)                  | O(*log n*)          | O(*log n*)            |   
 
 ## Índice de Sets
-- [HashSet](#)
+- [HashSet](https://github.com/Camilotk/aprendendo_csharp/tree/master/Data%20Structures/Sets/HashSet)
 - [SortedSet](#)
 
 ### Referências
