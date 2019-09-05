@@ -16,6 +16,16 @@ Assim como LinkedLists implementam um Array primitivo que armazena os objetos pa
 ## Implementação básica em C#
 - [MyHashSet.cs](https://github.com/Camilotk/aprendendo_csharp/blob/master/Data%20Structures/Sets/HashSet/Implementation/MyHashSet.cs)
 
+## Imports
+**Linhas 1 e 2**
+
+Para que possamos utilizar a estrutura de dicionário padrão do C# para implementar nosso HashSet é necessário primeiro importar as coleções genéricas.
+
+```C#
+using System;
+using System.Collections.Generic;
+```
+
 ### Propriedades
 **Linhas 17 a 22**
 
@@ -44,6 +54,7 @@ public MyHashSet()
 ```
 
 ### Método .Add()
+**Linhas de 34 a 58**
 
 O método **.Add(** *Object* **)** recebe um item do tipo genérico do HashSet e utiliza a estrutura de try-catch para tentar adicionar esse elemento no dicionário **map**, caso seu Hash já esteja registrado em map, irá retornar uma exeção **ArgumentException** que será tratada e irá imprimir no console que esse objeto já está adicionado ao map. Qualquer outra exceção retorna falso.
 
@@ -68,11 +79,39 @@ public bool Add(T item)
 }
 ```
 
-### Método .Remove()
-
 ### Método .Clear()
+**Linhas 60 a 64 **
+
+Simplesmente limpa o map, utiliza-se da própria implantação do mesmo.
+```C#
+public void Clear()
+{
+  map.Clear();
+}
+```
 
 ### Método .Contains()
+**Linhas 66 a 71 **
+
+Retorna um valor booleano se o elemento do tipo genérico passsado está presente no HashSet, utiliza-se da própria implantação do mesmo.
+```C#
+public bool Contains(T item)
+{
+  return map.ContainsKey(item);
+}
+```
+
+### Método .Remove()
+**Linhas 78 a 82**
+
+No caso de C# - diferentemente de Java - a função .Remove() de map retorna um valor booleano que diz se o objeto foi corretamente removido, o que nos permite dispensar o uso de try-catch simplesmente retornando o retorno da função de map.
+
+```C#
+public bool Remove(T item)
+{
+  return map.Remove(item);
+}
+```
 
 ## Exemplo de Uso
 Podemos passar todos os itens de uma lista para um conjunto com a finalidade de garantir que não haja itens repetidos.
