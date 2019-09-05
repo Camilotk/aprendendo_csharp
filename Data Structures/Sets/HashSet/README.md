@@ -16,6 +16,18 @@ Assim como LinkedLists implementam um Array primitivo que armazena os objetos pa
 ## Implementação básica em C#
 - [MyHashSet.cs](https://github.com/Camilotk/aprendendo_csharp/blob/master/Data%20Structures/Sets/HashSet/Implementation/MyHashSet.cs)
 
+### Propriedades
+
+### Método Construtor
+
+### Método .Add()
+
+### Método .Remove()
+
+### Método .Clear()
+
+### Método .Contains()
+
 ## Exemplo de Uso
 Podemos passar todos os itens de uma lista para um conjunto com a finalidade de garantir que não haja itens repetidos.
 
@@ -48,6 +60,7 @@ namespace SetsTest
             {
                 fruits_group.Add(fruit);
             }
+            Console.WriteLine("---------");
             foreach (var fruit in fruits_group)
             {
                 Console.WriteLine(fruit);
@@ -61,6 +74,7 @@ namespace SetsTest
 An item with the same key has already been added. Key: orange
 An item with the same key has already been added. Key: pears
 An item with the same key has already been added. Key: apple
+---------
 apple
 orange
 peaches
