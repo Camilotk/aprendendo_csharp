@@ -1,10 +1,23 @@
 # Padrões
 ## Principais
-- [ ] Abstract Factory <br>
-- [ ] Adapter<br>
-- [ ] Composite <br>
-- [ ] Decorator <br>
-- [ ] Factory Method<br> 
-- [ ] Observer<br>
-- [X] Strategy<br>
-- [ ] Template Method<br>
+- [ ] Abstract Factory
+- [ ] Adapter
+- [ ] Composite
+- [ ] Decorator 
+- [ ] Factory Method
+- [ ] Observer
+- [X] Strategy
+- [ ] Template Method
+- [ ] View
+
+## Outros
+- [ ] Facade
+- [ ] Mediator
+- [ ] Command
+- [ ] Active Object
+- [ ] Method
+- [ ] Singleton
+- [ ] Monostate
+- [ ] Bridge
+- [ ] Proxy
+- [ ] Gateway
