@@ -22,7 +22,7 @@ As principais inspirações desse projeto é a Open Source Society University (O
 - [Estrutura de Dados](https://github.com/Camilotk/aprendendo_csharp/tree/master/Data%20Structures)
 ### SOLID, Principios de OO e Design Patterns
 - [Principios de OO](#)
-- [SOLID](#)
+- [SOLID](https://github.com/Camilotk/aprendendo_csharp/tree/master/SOLID)
 - [Design Patterns](https://github.com/Camilotk/aprendendo_csharp/tree/master/Design%20Patterns)
 ### TDD e Testes
 - [MSTest](#)
