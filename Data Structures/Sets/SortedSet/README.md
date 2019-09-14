@@ -14,7 +14,9 @@ A garantia de unicidade e organização de um SortedSet vem da implementação d
 </div>
 
 ## Implementação básica em C#
+A implementação do SortedSet depende da implementação da Árvore Rubro-Negra que foi implementada em C#, porém o foco do estudo neste tópico é a implementação do SortedSet e por isso não será estudado os detalhes da árvore, apesar de ser possivel estudá-la acessando o seu código fonte implementado nos arquivos.
 - [MySortedSet.cs](https://github.com/Camilotk/aprendendo_csharp/blob/master/Data%20Structures/Sets/SortedSet/Implementation/MySortedSet.cs)
+- [RedBlackTree.cs](https://github.com/Camilotk/aprendendo_csharp/blob/master/Data%20Structures/Sets/SortedSet/Implementation/RedBlackTree.cs)
 
 ## Imports
 **Linhas A a z**
