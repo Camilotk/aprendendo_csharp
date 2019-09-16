@@ -52,15 +52,15 @@ public MySortedSet () => _elements = new RedBlackTree<T>();
 
 ```C#
 try 
-            {
-                _elements.Add(item);
-                return true;
-            }
-            catch(Exception e)
-            {
-                Console.WriteLine(e.Message);
-                return false;
-            }
+{
+  _elements.Add(item);
+  return true;
+}
+catch(Exception e)
+{
+  Console.WriteLine(e.Message);
+  return false;
+}
 ```
 
 ### Método .Remove()
@@ -70,16 +70,15 @@ try
 
 ```C#
 try
-            {
-                _elements.Remove(item);
-                return true;
-                
-            }
-            catch(Exception e)
-            {
-                Console.WriteLine(e.Message);
-                return false;
-            }
+{
+  _elements.Remove(item);
+  return true;
+}
+catch(Exception e)
+{
+  Console.WriteLine(e.Message);
+  return false;
+}
 ```
 
 ## Exemplo de Uso
