@@ -1,6 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SetsTest.SortedSet
 {
@@ -97,7 +95,7 @@ namespace SetsTest.SortedSet
         // Primeiro nó
         private Node root;
         // Número de Elementos
-        private uint numberOfElements;
+        public uint numberOfElements { get; set; }
         // Nó inserido
         private Node insertedNode;
         // Nó que sendo deletado
@@ -790,7 +788,7 @@ namespace SetsTest.SortedSet
                 {
                     Case4(ourNode, parent, sibling, grandParent);
                 }
-                else if (!siblingToRight && !siblingRed siblingLeftRed)
+                else if (!siblingToRight && !siblingRed && siblingLeftRed)
                 {
                     Case4P(ourNode, parent, sibling, grandParent);
                 }
@@ -930,10 +928,8 @@ namespace SetsTest.SortedSet
             }
         }
 
-        
-
     } // Fim da Classe
     
 } // Fim namespace
 
-// Do original: http://www.jot.fm/issues/issue_2005_03/column6/
+// http://www.jot.fm/issues/issue_2005_03/column6/
