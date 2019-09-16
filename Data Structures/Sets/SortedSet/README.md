@@ -24,7 +24,7 @@ A implementação do SortedSet depende da implementação da Árvore Rubro-Negra
 ...
 
 ```C#
-...
+using System;
 ```
 
 ### Propriedades
@@ -33,7 +33,7 @@ A implementação do SortedSet depende da implementação da Árvore Rubro-Negra
 ...
 
 ```C#
-...
+private RedBlackTree<T> _elements { get; set; }
 ```
 
 ### Método Construtor
@@ -42,7 +42,7 @@ A implementação do SortedSet depende da implementação da Árvore Rubro-Negra
 ...
 
 ```C#
-// ...
+public MySortedSet () => _elements = new RedBlackTree<T>();
 ```
 
 ### Método .Add()
@@ -51,25 +51,16 @@ A implementação do SortedSet depende da implementação da Árvore Rubro-Negra
 ...
 
 ```C#
-// ...
-```
-
-### Método .Clear()
-**Linhas A a z**
-
-...
-
-```C#
-// ...
-```
-
-### Método .Contains()
-**Linhas A a z**
-
-...
-
-```C#
-// ...
+try 
+            {
+                _elements.Add(item);
+                return true;
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return false;
+            }
 ```
 
 ### Método .Remove()
@@ -78,7 +69,17 @@ A implementação do SortedSet depende da implementação da Árvore Rubro-Negra
 ...
 
 ```C#
-// ...
+try
+            {
+                _elements.Remove(item);
+                return true;
+                
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return false;
+            }
 ```
 
 ## Exemplo de Uso
